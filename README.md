@@ -8,6 +8,8 @@ The Noriben.py script from https://github.com/Rurik/Noriben has been extended to
 
 The whitelist was extended extensively to include every background process that was found on a Windows 10 Pro virtual machine running on Microsoft Azure. You will likely need to make adjustment or start off with the smaller whitelist from the original Noriben script. It is helpful to use a small app like the Windows Calculator to create the whitelist, where everything that has nothing to do with the Calculator will be a normal background process.
 
+Reports for test samples can be found in the folders set1_trickbot, set1_other, set2_trickbot and set2_other. Set 1 contains the training set based on which regular expressions for Trickbot pattern matching were created. Set 2 contains Noriben reports with the applied regular expression matching, with an Analysis section on the bottom of the report indicating if and how many Trickbot patterns were found, and which ones in particular. 
+
 # Copyright and License
 
 Copyright 2019 Julia Ebner
