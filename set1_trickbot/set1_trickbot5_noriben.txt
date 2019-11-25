@@ -75,6 +75,7 @@ Analysis:
 ==================
 34 Trickbot patterns found:
 (2) Creates svchost.exe process
+(2) svchost.exe launches TCP connection on port 80 (HTTP)
 (4) svchost.exe launches TCP connection on port 449 (AS Server Mapper)
 (2) Uses Powershell Set-MpPreference command to change antivirus preferences
 (2) svchost.exe launches TCP connection on port 443 (HTTPS)
