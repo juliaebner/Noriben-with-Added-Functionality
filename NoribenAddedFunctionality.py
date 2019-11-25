@@ -1422,6 +1422,7 @@ def parse_csv(csv_file, report, timeline):
     # network-related trickbot patterns: 
     tb_svchost_443 = (r"svchost.exe launches TCP connection on port 443 (HTTPS)", "^\[TCP\] svchost\.exe.*>.*:443")
     tb_svchost_449 = (r"svchost.exe launches TCP connection on port 449 (AS Server Mapper)", "^\[TCP\] svchost\.exe.*>.*:449")
+    tb_svchost_80 = (r"svchost.exe launches TCP connection on port 80 (HTTP)", "^\[TCP\] svchost\.exe.*>.*:80")
     tb_rundll_5900 = (r"rundll32.exe launches TCP connection on port 5900 (VNC)", "^\[TCP\] rundll32\.exe.*>.*:5900")
     # Define a list of tuples with descriptors and regex for each item
     tb_pattern_list = [tb_proc_svchost, tb_proc_windefend, tb_proc_mppreference, tb_proc_allusersprofile_exe, tb_proc_appdata_exe, tb_proc_tmp1, 
